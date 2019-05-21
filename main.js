@@ -1,7 +1,7 @@
-class FlappyBirdGame{
+class FlappyBirdGame {
     build(){
-        this.canv = document.querySelector('#Flappy');
-        this.ctx = cvs.getContext("2d");
+    const cvs = document.querySelector('#Flappy');
+    const ctx = cvs.getContext("2d");
     }
     render(){
         
