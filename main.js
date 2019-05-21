@@ -1,9 +1,9 @@
-function init(){
+class FlappyBirdGame {
+    build(){
     const cvs = document.querySelector('#Flappy');
     const ctx = cvs.getContext("2d");
+    }
+    render(){
+        
+    }
 }
-
-window.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM fully loaded');
-    init();
-});
