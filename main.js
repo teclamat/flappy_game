@@ -1,9 +1,9 @@
-class inputHandling{
-    constructor(ctx){
+class inputHandling {
+    constructor(ctx) {
         window.addEventListener("keydown", function(event) {
-            if(event.code=="Space"){
+            if(event.code=="Space") {
                 console.log(event.code);
-            }else{
+            } else {
                 return;
             }
           }, true)
