@@ -1,3 +1,5 @@
+
+
 class FlappyBirdGame {
     constructor() {
         this.canv = document.createElement("canvas");
@@ -22,6 +24,26 @@ class FlappyBirdGame {
     }
 }
 
+const gap = 100;
+const constant;
+
+const bX = 10;
+const bY = 100;
+
+const gravity = 2;
+
+const score = 0;
+
+document.addEventListener("keydown",moveUp);
+
+function moveUp(){
+    bY -= 80;
+    fly.play();
+
+
 window.addEventListener('DOMContentLoaded', () => {
     const flappygame = new FlappyBirdGame();
 });
+
+
+
